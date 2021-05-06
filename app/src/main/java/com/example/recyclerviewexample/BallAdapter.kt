@@ -38,6 +38,6 @@ class BallAdapter(val ballList: List<Balls>) : RecyclerView.Adapter<BallAdapter.
 
     //get the number of total items
     override fun getItemCount(): Int {
-        return 4
+        return 12
     }
 }

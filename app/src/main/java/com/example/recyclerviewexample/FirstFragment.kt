@@ -5,9 +5,6 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import androidx.databinding.DataBindingUtil
-import androidx.databinding.DataBindingUtil.setContentView
-import androidx.databinding.ViewDataBinding
 import androidx.recyclerview.widget.DividerItemDecoration
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.recyclerviewexample.databinding.FragmentFirstBinding
@@ -37,7 +34,15 @@ class FirstFragment : Fragment() {
     private fun initBallList(){
         ballList.add(Balls("Baseball",R.drawable.baseball))
         ballList.add(Balls("Basketball",R.drawable.basketball))
+        ballList.add(Balls("Soccer",R.drawable.soccer))
+        ballList.add(Balls("Volleyball",R.drawable.volleyball))
+        ballList.add(Balls("Tennis",R.drawable.tennis))
+        ballList.add(Balls("Tabletennis",R.drawable.tabletennis))
+        ballList.add(Balls("Golf",R.drawable.golf))
+        ballList.add(Balls("Bowling",R.drawable.bowling))
         ballList.add(Balls("Football",R.drawable.football))
+        ballList.add(Balls("Dodgeball",R.drawable.dodgeball))
+        ballList.add(Balls("Badminton",R.drawable.badminton))
         ballList.add(Balls("Other",R.drawable.other))
     }
 }

@@ -8,7 +8,7 @@
     <fragment
         android:id="@+id/firstFragment"
         android:name="com.example.recyclerviewexample.FirstFragment"
-        android:label="fragment_first"
+        android:label="List of Sports"
         tools:layout="@layout/fragment_first" >
         <action
             android:id="@+id/action_firstFragment_to_secondFragment"
@@ -17,7 +17,7 @@
     <fragment
         android:id="@+id/secondFragment"
         android:name="com.example.recyclerviewexample.SecondFragment"
-        android:label="fragment_second"
+        android:label="Detailed Information"
         tools:layout="@layout/fragment_second" >
         <argument
             android:name="selectBall"
